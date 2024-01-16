@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Mone;
+    src: url(Assets/Montserrat/static/Montserrat-Regular.ttf);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mone;
+}
+
+
+
+#nav {
+
+    height: 150px;
+    width: 100%;
+   /* background-color:white; */
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 150px;
+    gap:40px;
+    position: fixed;
+   z-index: 99;
+}
+
+
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.logo {
+    height: 80px;
+}
+
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
