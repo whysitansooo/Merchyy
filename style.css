@@ -4,6 +4,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -11,11 +15,13 @@
     font-family: Mone;
 }
 
-
+body{
+    overflow-x: hidden;
+}
 
 #nav {
 
-    height: 150px;
+    height: 130px;
     width: 100%;
    /* background-color:white; */
     display:flex;
@@ -44,11 +50,14 @@ video{
     width: 100%;
     position: fixed;
     object-fit: cover;
+    z-index: -1;
+   
 }
 
 #main{
     position: relative;
     background-color: rgb(0, 0, 0,0.4);
+    display: flex;
 }
 
 
@@ -61,11 +70,11 @@ video{
     flex-direction: column;
    
     color:rgba(247, 243, 243, 0.4);
-    top: 130px;
+    top: 100px;
 }
 
 #page1 h1{
-    font-size: 140px;
+    font-size: 130px;
     font-weight: 700;
     padding-left: 40px;
     position: relative;
@@ -77,3 +86,54 @@ video{
     font-size: 23px;
     color: white;
 }
+
+.hoodies1 {
+    display: flex;
+
+}
+
+.hoodies2 {
+    display: flex;
+
+}
+
+.hoodies3 {
+    display: flex;
+
+}
+
+.column{
+    flex: 40%;
+  padding:  0 10px;
+}
+
+.column2{
+    flex: 40%;
+  padding:  0 10px;
+}
+
+.column3{
+    flex: 40%;
+  padding:  0 10px;
+}
+
+#hood1{
+    height: 360px;
+    width: 360px;
+   
+}
+
+#hood2{
+    height: 360px;
+    width: 360px;
+
+}
+
+#hood3{
+    height: 380px;
+    width: 360px;
+
+}
+
+
+
