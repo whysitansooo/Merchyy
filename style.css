@@ -1,6 +1,6 @@
 @font-face {
     font-family: Mone;
-    src: url(Assets/Montserrat/static/Montserrat-Regular.ttf);
+    src: url(Assets/Montserrat/static/Montserrat-Regular.woff2);
 
 }
 
@@ -102,6 +102,11 @@ video{
 
 }
 
+.hoodies4 {
+    display: flex;
+
+}
+
 .column{
     flex: 40%;
   padding:  0 10px;
@@ -117,9 +122,15 @@ video{
   padding:  0 10px;
 }
 
+.column3{
+    flex: 40%;
+  padding:  0 10px;
+}
+
 #hood1{
     height: 360px;
     width: 360px;
+    
    
 }
 
@@ -135,5 +146,49 @@ video{
 
 }
 
+#hood4{
+    height: 380px;
+    width: 360px;
 
+}
+
+
+
+#container {
+  
+    position: relative;
+    top: 1200px;
+    height: 300px;
+    width: 100%;
+    
+}
+
+#footer-text{
+    font-size: 50px;
+    margin-left: 90px;
+    color:rgb(234, 231, 231)
+   
+}
+
+#order-btn{
+    float: left;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    left: 1050px;
+    width: 200px;
+    height: 120px;
+    bottom: 120px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgba(247, 243, 243, 0.4);
+
+}
+
+#sitansu {
+    text-align: center;
+    color: white;
+   padding-top: 120px;
+}
 
