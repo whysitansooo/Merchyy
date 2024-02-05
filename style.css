@@ -127,11 +127,34 @@ video{
   padding:  0 10px;
 }
 
+
+
+#hood1:hover{
+    content: url(./Assets/shunsui\ hoodie\ front.png);
+    
+}
+#hood2:hover{
+    content: url(./Assets/shunsui\ hoodie\ front.png);
+    
+}
+
+#hood3:hover{
+    content: url(./Assets/shunsui\ hoodie\ front.png);
+    
+}
+
+#hood4:hover{
+    content: url(./Assets/shunsui\ hoodie\ front.png);
+    
+}
+
+
 #hood1{
     height: 360px;
     width: 360px;
 
 }
+
 
 #hood2{
     height: 360px;
@@ -190,6 +213,10 @@ video{
     color: white;
    padding-top: 120px;
 }
+
+
+
+
 
 @media screen and (max-width:600px){
 
